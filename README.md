@@ -38,10 +38,9 @@ This configuration only enables IntelliSense (autocomplete and error highlightin
             "defines": [
                 "__MSP432P401R__",
                 "__TI_ARM__",
-                "__TI_COMPILER_VERSION__=20002007"
             ],
             "cStandard": "gnu89",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
@@ -64,7 +63,6 @@ This configuration only enables IntelliSense (autocomplete and error highlightin
             "defines": [
                 "__MSP432P401R__",
                 "__TI_ARM__",
-                "__TI_COMPILER_VERSION__=20002007"
             ],
             "cStandard": "gnu89",
             "intelliSenseMode": "linux-gcc-x64"
