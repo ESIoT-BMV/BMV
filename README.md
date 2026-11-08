@@ -36,7 +36,9 @@ This configuration only enables IntelliSense (autocomplete and error highlightin
                 "C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/"
             ],
             "defines": [
-                "__MSP432P401R__"
+                "__MSP432P401R__",
+                "__TI_ARM__",
+                "__TI_COMPILER_VERSION__=20002007"
             ],
             "cStandard": "gnu89",
             "intelliSenseMode": "windows-gcc-x64"
@@ -60,7 +62,9 @@ This configuration only enables IntelliSense (autocomplete and error highlightin
                 "${userHome}/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/"
             ],
             "defines": [
-                "__MSP432P401R__"
+                "__MSP432P401R__",
+                "__TI_ARM__",
+                "__TI_COMPILER_VERSION__=20002007"
             ],
             "cStandard": "gnu89",
             "intelliSenseMode": "linux-gcc-x64"
