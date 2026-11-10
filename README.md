@@ -7,7 +7,7 @@ The SDK is not installed by the project, so you must tell your IDE where it is.
 
 1. Import the project: *Project → Import CCS Projects...*
 2. Open *Project → Properties → Resource → Linked Resources → Path Variables*.
-3. Edit the variable `SIMPLELINK_SDK` and set it to the folder where you put the SDK, for example:
+3. Add and Edit the variable `SIMPLELINK_SDK` and set it to the folder where you put the SDK, for example:
    - Windows: `C:/ti/simplelink_msp432p4_sdk_3_40_01_02`
    - Linux: `/home/<user>/ti/simplelink_msp432p4_sdk_3_40_01_02`
 4. Run *Project → Clean*, then *Build*.
@@ -35,6 +35,7 @@ This configuration only enables IntelliSense (autocomplete and error highlightin
                 "C:/ti/ccs1281/ccs/ccs_base/arm/include/**",
                 "C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/"
             ],
+            "compilerPath": "",
             "defines": [
                 "__MSP432P401R__",
                 "__TI_ARM__",
@@ -60,6 +61,7 @@ This configuration only enables IntelliSense (autocomplete and error highlightin
                 "${userHome}/ti/ccs1281/ccs/ccs_base/arm/include/**",
                 "${userHome}/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/"
             ],
+            "compilerPath": "",
             "defines": [
                 "__MSP432P401R__",
                 "__TI_ARM__",

@@ -24,10 +24,4 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
-	<variableList>
-		<variable>
-			<name>SIMPLELINK_SDK</name>
-			<value>file:/C:/MyThings/Uni/Years/M-Second/Embedded-Systems/simplelink_msp432p4_sdk_3_40_01_02</value>
-		</variable>
-	</variableList>
 </projectDescription>
