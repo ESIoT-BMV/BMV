@@ -6,8 +6,8 @@ The SDK is not installed by the project, so you must tell your IDE where it is.
 ## Code Composer Studio (CCS)
 
 1. Import the project: *Project → Import CCS Projects* and select the directory of this repo.
-2. Open *Project → Properties → Resource → Linked Resources → Path Variables*.
-3. Add and Edit the variable `SIMPLELINK_SDK` and set it to the folder where you put the SDK, for example:
+2. Open *Window → Preferences → Code Composer Studio → Build → Variables → Add*.
+3. Add and Edit the variable `SIMPLELINK_SDK` of type *Directory* and set it to the folder where you put the SDK, for example:
    - Windows: `C:/ti/simplelink_msp432p4_sdk_3_40_01_02`
    - Linux: `/home/<user>/ti/simplelink_msp432p4_sdk_3_40_01_02`
 4. Run *Project → Clean*, then *Build*.
