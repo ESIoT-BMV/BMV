@@ -31,7 +31,7 @@ This configuration only enables IntelliSense (autocomplete and error highlightin
             "name": "Windows",
             "includePath": [
                 "${workspaceFolder}/**",
-                "PATH_TO_simplelink_msp432p4_sdk_3_40_01_028/**",
+                "PATH_TO_simplelink_msp432p4_sdk_3_40_01_02/**",
                 "C:/ti/ccs1281/ccs/ccs_base/arm/include/**",
                 "C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/"
             ],
