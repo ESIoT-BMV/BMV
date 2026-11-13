@@ -49,6 +49,7 @@
 # Kernel Module Compile Results
 *.mod*
 *.cmd
+!msp432p401r.cmd
 .tmp_versions/
 modules.order
 Module.symvers
